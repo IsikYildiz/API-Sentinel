@@ -22,7 +22,8 @@ API Sentinel is an AI-driven tool that analyzes OpenAPI (Swagger) documentation 
 ## ⚙️ Installation
 ---
 1. **Clone the repository:**
-2. **Download ollama and run llama3.2. If you want you can use a different model bu you should change the model in llm.py**
+2. **Download ollama and run llama3.2 model. If you want to use a different model you can change the model in llm.py.**
+3. **In terminal execute "streamlit run app.py"**
 ---
 
 **🇹🇷 Türkçe**
@@ -45,5 +46,7 @@ API Sentinel, OpenAPI (Swagger) dökümantasyonunu analiz ederek olası güvenli
 ## ⚙️ Kurulum
 ---
 1. **Depoyu klonlayın:**
+2. **Ollama yı indirip llama3.2 modelini çalıştırın. Eğer farklı bir model kullanmak isterseniz llm.py dosyasındaki modeli değiştirmelisiniz.**
+3. **Terminalde "streamlit run app.py" yazıp çalıştırın**
 ```
 
