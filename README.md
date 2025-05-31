@@ -2,7 +2,7 @@
 **AI-powered API Security & Abuse Case Analyzer / Yapay Zeka Destekli API Güvenlik ve Suistimal Senaryosu Analiz Aracı**
 ---
 
-**English**
+**🇬🇧 English**
 ---
 
 ## 📌 Overview 
@@ -23,9 +23,9 @@ API Sentinel is an AI-driven tool that analyzes OpenAPI (Swagger) documentation 
 ---
 1. **Clone the repository:**
 2. **Download ollama and run llama3.2. If you want you can use a different model bu you should change the model in llm.py**
-```
+---
 
-**Türkçe**
+**🇹🇷 Türkçe**
 ---
 
 ## 📌 Genel Bakış
