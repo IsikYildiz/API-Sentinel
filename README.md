@@ -5,21 +5,21 @@
 **🇬🇧 English**
 ---
 
-## 📌 Overview 
+## Overview 
 ---
 API Sentinel is an AI-driven tool that analyzes OpenAPI (Swagger) documentation to detect potential security vulnerabilities and abuse case scenarios. It assists developers in identifying risks in API structures using a Large Language Model (LLM).
 ---
 
-## 🚀 Features
+## Features
 ---
-- 🧠 LLM-based security analysis  
-- 🔍 Endpoint, HTTP method, and parameter extraction  
-- ⚠️ Vulnerability detection and abuse case generation  
-- 📂 JSON and YAML Swagger file support  
-- 💻 User-friendly web interface built with Streamlit  
+- LLM-based security analysis  
+- Endpoint, HTTP method, and parameter extraction  
+- Vulnerability detection and abuse case generation  
+- JSON and YAML Swagger file support  
+- User-friendly web interface built with Streamlit  
 ---
 
-## ⚙️ Installation
+## Installation
 ---
 1. **Clone the repository:**
 2. **Download ollama and run llama3.2 model. If you want to use a different model you can change the model in llm.py.**
@@ -29,21 +29,21 @@ API Sentinel is an AI-driven tool that analyzes OpenAPI (Swagger) documentation 
 **🇹🇷 Türkçe**
 ---
 
-## 📌 Genel Bakış
+## Genel Bakış
 ---
 API Sentinel, OpenAPI (Swagger) dökümantasyonunu analiz ederek olası güvenlik açıklarını ve kötüye kullanım senaryolarını tespit eden yapay zeka destekli bir araçtır. Büyük Dil Modeli (LLM) kullanarak geliştiricilere API yapılarındaki riskleri gösterir.
 ---
 
-## 🚀 Özellikler
+## Özellikler
 ---
-- 🧠 LLM tabanlı güvenlik analizi  
-- 🔍 Endpoint, HTTP metodu ve parametre çıkarımı  
-- ⚠️ Güvenlik açığı ve suistimal senaryosu oluşturma  
-- 📂 JSON ve YAML Swagger dosya desteği  
-- 💻 Streamlit ile kullanıcı dostu arayüz  
+- LLM tabanlı güvenlik analizi  
+- Endpoint, HTTP metodu ve parametre çıkarımı  
+- Güvenlik açığı ve suistimal senaryosu oluşturma  
+- JSON ve YAML Swagger dosya desteği  
+- Streamlit ile kullanıcı dostu arayüz  
 ---
 
-## ⚙️ Kurulum
+## Kurulum
 ---
 1. **Depoyu klonlayın:**
 2. **Ollama yı indirip llama3.2 modelini çalıştırın. Eğer farklı bir model kullanmak isterseniz llm.py dosyasındaki modeli değiştirmelisiniz.**
