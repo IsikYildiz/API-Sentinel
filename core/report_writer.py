@@ -14,7 +14,7 @@ def write_markdown_report(endpoints, base_url, output_file="output/analysis_repo
             f.write(f"## 🔹 {method} {path}\n")
             f.write(f"**Açıklama:** {summary}\n\n")
 
-            f.write("### 📥 Parametreler\n")
+            f.write("### Parametreler\n")
             if parameters:
                 for p in parameters:
                     f.write(f"- `{p['name']}` ({p['in']}), type: `{p['type']}`, required: `{p['required']}`\n")
@@ -24,7 +24,7 @@ def write_markdown_report(endpoints, base_url, output_file="output/analysis_repo
 
             # curl_generator çıktısı
             curl_cmd = generate_curl_command(base_url, endpoint)
-            f.write("### 💻 Curl Komutu:\n")
+            f.write("### Curl Komutu:\n")
             f.write("```bash\n")
             f.write(curl_cmd + "\n")
             f.write("```\n\n")

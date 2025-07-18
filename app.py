@@ -4,7 +4,7 @@ from core.llm import prompt_attack_cases
 from core.curl_generator import generate_curl_command
 
 st.set_page_config(page_title="API Sentinel", layout="wide")
-st.title("🔐 API Sentinel - API Güvenlik Analiz Aracı")
+st.title("API Sentinel - API Güvenlik Analiz Aracı")
 
 uploaded_file = st.file_uploader("Swagger JSON Dosyasını Yükleyin", type=["json"])
 
@@ -17,20 +17,20 @@ if uploaded_file is not None:
 
     for idx, ep in enumerate(endpoints):
         with st.expander(f"🔹 {ep['method']} {ep['path']}"):
-            # 📥 Parametreler
-            st.markdown("### 📥 Parametreler")
+            # Parametreler
+            st.markdown("### Parametreler")
             if ep["parameters"]:
                 for p in ep["parameters"]:
                     st.markdown(f"- {p['name']} ({p['in']}), type: {p['type']}, required: {p['required']}")
             else:
                 st.markdown("Parametre bulunamadı.")
 
-            # 💻 Curl komutu
+            # Curl komutu
             curl_cmd = generate_curl_command(base_url, ep)
-            st.markdown("### 💻 Curl Komutu")
+            st.markdown("### Curl Komutu")
             st.code(curl_cmd, language="bash")
 
-            # 🧠 LLM analizi
-            st.markdown("### 🧠 LLM Analizi")
+            # LLM analizi
+            st.markdown("### LLM Analizi")
             llm_output = prompt_attack_cases(ep)
             st.markdown(llm_output)

@@ -13,7 +13,7 @@ def main():
     endpoints = extract_endpoints(swagger)
     base_url = get_base_url(swagger)
 
-    print(f"🔍 {len(endpoints)} endpoint bulundu. Rapor hazırlanıyor...")
+    print(f"{len(endpoints)} endpoint bulundu. Rapor hazırlanıyor...")
     write_markdown_report(endpoints, base_url, output_file)
 
 if __name__ == "__main__":
